@@ -1,0 +1,31 @@
+{
+	"member_id": "431",
+	"platform_id": "182****33",
+	"inuc": 0,
+	"member_name": "182****33",
+	"nick_name": "182****33",
+	"type": "shouji",
+	"type_name": "\u624b\u673a\u5feb\u901f\u6ce8\u518c",
+	"avatar": "",
+	"access_token": "ef37c91210854f5986fc9ebb5548b2ae",
+	"guid": "a6566200-e565-5e76-5886-7769fd3110c6",
+	"gid": "1",
+	"gradeid": "1",
+	"copywriting_credit": "+15\u91d1\u5e01,+10\u7ecf\u9a8c",
+	"copywriting": "\u767b\u5f55\u6210\u529f",
+	"signature": "",
+	"mobile": "182****33",
+	"email": "",
+	"extension": {
+		"real_name_certificate": {
+			"field": "real_name_certificate",
+			"name": "\u5b9e\u540d\u8ba4\u8bc1",
+			"value": ""
+		},
+		"ID": {
+			"field": "ID",
+			"name": "\u8eab\u4efd\u8bc1",
+			"value": ""
+        }
+    }
+}

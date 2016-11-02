@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SQHXOREncryptViewController">
+            <connections>
+                <outlet property="textView" destination="Qqw-CB-7nW" id="0uv-Oo-DcT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wef-jf-X81">
+                    <state key="normal" title="解密"/>
+                    <connections>
+                        <action selector="decrypt:" destination="-1" eventType="touchUpInside" id="EHZ-ix-g5s"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsD-O6-hl2">
+                    <state key="normal" title="加密"/>
+                    <connections>
+                        <action selector="encrypt:" destination="-1" eventType="touchUpInside" id="fR0-as-md9"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="data" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qqw-CB-7nW">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Wef-jf-X81" firstAttribute="centerY" secondItem="gsD-O6-hl2" secondAttribute="centerY" id="0jw-6F-CTc"/>
+                <constraint firstItem="Wef-jf-X81" firstAttribute="height" secondItem="gsD-O6-hl2" secondAttribute="height" id="9KO-1k-6Gq"/>
+                <constraint firstItem="Wef-jf-X81" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="AsH-u2-Mqe"/>
+                <constraint firstItem="gsD-O6-hl2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="BSc-Kj-Wls"/>
+                <constraint firstAttribute="trailing" secondItem="Qqw-CB-7nW" secondAttribute="trailing" constant="50" id="CsJ-DJ-EKD"/>
+                <constraint firstAttribute="trailing" secondItem="Wef-jf-X81" secondAttribute="trailing" constant="50" id="T1o-qF-xTt"/>
+                <constraint firstItem="Qqw-CB-7nW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="V8I-eS-56g"/>
+                <constraint firstItem="Wef-jf-X81" firstAttribute="width" secondItem="gsD-O6-hl2" secondAttribute="width" id="cRH-fV-11W"/>
+                <constraint firstAttribute="bottom" secondItem="Qqw-CB-7nW" secondAttribute="bottom" constant="50" id="eVX-u1-XjO"/>
+                <constraint firstItem="gsD-O6-hl2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="qU1-Ey-k6c"/>
+                <constraint firstItem="Qqw-CB-7nW" firstAttribute="top" secondItem="gsD-O6-hl2" secondAttribute="bottom" constant="20" id="zrV-Qc-aJ1"/>
+            </constraints>
+            <point key="canvasLocation" x="120" y="-22"/>
+        </view>
+    </objects>
+</document>

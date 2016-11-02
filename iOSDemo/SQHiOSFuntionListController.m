@@ -21,8 +21,6 @@
     [super viewDidLoad];
     self.title = @"iOS常用技巧";
     
-   
-    
     SQHGroupModel *imageGroup = [[SQHGroupModel alloc] init];
     imageGroup.title = @"图片相关";
     
@@ -48,9 +46,24 @@
     itemModel3.subtitle = @"resizableImageWithCapInsets";
     itemModel3.clazz = @"SQHImageStretchViewController";
     [imageGroup.itemArray addObject:itemModel3];
-    
-    
     [self.dataArray addObject:imageGroup];
+    
+    
+    // 加密
+    SQHGroupModel *encryptGroup = [[SQHGroupModel alloc] init];
+    encryptGroup.title = @"加密相关";
+    
+    // 加密算法1（异或加密）
+    SQHItemModel *encryptModel = [[SQHItemModel alloc] init];
+    encryptModel.title = @"异或加密(XOR)";
+    encryptModel.subtitle = @"SQHXOREncryptViewController";
+    encryptModel.clazz = @"SQHXOREncryptViewController";
+    [encryptGroup.itemArray addObject:encryptModel];
+    
+    [self.dataArray addObject:encryptGroup];
+    
+    
+    
     
     [self.tableView reloadData];
     
@@ -105,6 +118,7 @@
     SQHItemModel *itemModel = groupModel.itemArray[indexPath.row];
     
     UIViewController *vc = [[NSClassFromString(itemModel.clazz) alloc] init];
+    vc.title = itemModel.title;
     
     [self.navigationController pushViewController:vc animated:YES];
 }

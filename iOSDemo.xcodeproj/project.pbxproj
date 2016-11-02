@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F4320ED1DC97C57007B90C5 /* SQHImageStretchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4320E51DC97C57007B90C5 /* SQHImageStretchViewController.m */; };
+		4F4320EE1DC97C57007B90C5 /* SQHImageStretchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F4320E61DC97C57007B90C5 /* SQHImageStretchViewController.xib */; };
+		4F4320EF1DC97C57007B90C5 /* SQHImageTileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4320E81DC97C57007B90C5 /* SQHImageTileViewController.m */; };
+		4F4320F01DC97C57007B90C5 /* SQHImageTileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F4320E91DC97C57007B90C5 /* SQHImageTileViewController.xib */; };
+		4F4320F11DC97C57007B90C5 /* SQHImageTintColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4320EB1DC97C57007B90C5 /* SQHImageTintColorViewController.m */; };
+		4F4320F21DC97C57007B90C5 /* SQHImageTintColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F4320EC1DC97C57007B90C5 /* SQHImageTintColorViewController.xib */; };
+		4F4320FF1DC989A5007B90C5 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F4320FB1DC989A5007B90C5 /* data.json */; };
+		4F4321001DC989A5007B90C5 /* SQHXOREncryptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4320FD1DC989A5007B90C5 /* SQHXOREncryptViewController.m */; };
+		4F4321011DC989A5007B90C5 /* SQHXOREncryptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F4320FE1DC989A5007B90C5 /* SQHXOREncryptViewController.xib */; };
+		4F4321041DC98A58007B90C5 /* SQHXOREncryptUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4321031DC98A58007B90C5 /* SQHXOREncryptUtil.m */; };
 		4F82AE3F1D8DA3F200619490 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82AE1E1D8DA3F200619490 /* AppDelegate.m */; };
 		4F82AE401D8DA3F200619490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F82AE1F1D8DA3F200619490 /* Assets.xcassets */; };
 		4F82AE411D8DA3F200619490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F82AE201D8DA3F200619490 /* LaunchScreen.storyboard */; };
-		4F82AE421D8DA3F200619490 /* SQHImageStretchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82AE261D8DA3F200619490 /* SQHImageStretchViewController.m */; };
-		4F82AE431D8DA3F200619490 /* SQHImageStretchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F82AE271D8DA3F200619490 /* SQHImageStretchViewController.xib */; };
-		4F82AE441D8DA3F200619490 /* SQHImageTileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82AE291D8DA3F200619490 /* SQHImageTileViewController.m */; };
-		4F82AE451D8DA3F200619490 /* SQHImageTileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F82AE2A1D8DA3F200619490 /* SQHImageTileViewController.xib */; };
-		4F82AE461D8DA3F200619490 /* SQHImageTintColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82AE2C1D8DA3F200619490 /* SQHImageTintColorViewController.m */; };
-		4F82AE471D8DA3F200619490 /* SQHImageTintColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F82AE2D1D8DA3F200619490 /* SQHImageTintColorViewController.xib */; };
 		4F82AE481D8DA3F200619490 /* SQHGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82AE311D8DA3F200619490 /* SQHGroupModel.m */; };
 		4F82AE491D8DA3F200619490 /* SQHItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F82AE331D8DA3F200619490 /* SQHItemModel.m */; };
 		4F82AE4F1D8DA3F200619490 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F82AE3B1D8DA3F200619490 /* Info.plist */; };
@@ -29,20 +33,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F4320E41DC97C57007B90C5 /* SQHImageStretchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHImageStretchViewController.h; sourceTree = "<group>"; };
+		4F4320E51DC97C57007B90C5 /* SQHImageStretchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHImageStretchViewController.m; sourceTree = "<group>"; };
+		4F4320E61DC97C57007B90C5 /* SQHImageStretchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQHImageStretchViewController.xib; sourceTree = "<group>"; };
+		4F4320E71DC97C57007B90C5 /* SQHImageTileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHImageTileViewController.h; sourceTree = "<group>"; };
+		4F4320E81DC97C57007B90C5 /* SQHImageTileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHImageTileViewController.m; sourceTree = "<group>"; };
+		4F4320E91DC97C57007B90C5 /* SQHImageTileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQHImageTileViewController.xib; sourceTree = "<group>"; };
+		4F4320EA1DC97C57007B90C5 /* SQHImageTintColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHImageTintColorViewController.h; sourceTree = "<group>"; };
+		4F4320EB1DC97C57007B90C5 /* SQHImageTintColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHImageTintColorViewController.m; sourceTree = "<group>"; };
+		4F4320EC1DC97C57007B90C5 /* SQHImageTintColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQHImageTintColorViewController.xib; sourceTree = "<group>"; };
+		4F4320FB1DC989A5007B90C5 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		4F4320FC1DC989A5007B90C5 /* SQHXOREncryptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHXOREncryptViewController.h; sourceTree = "<group>"; };
+		4F4320FD1DC989A5007B90C5 /* SQHXOREncryptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHXOREncryptViewController.m; sourceTree = "<group>"; };
+		4F4320FE1DC989A5007B90C5 /* SQHXOREncryptViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQHXOREncryptViewController.xib; sourceTree = "<group>"; };
+		4F4321021DC98A58007B90C5 /* SQHXOREncryptUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHXOREncryptUtil.h; sourceTree = "<group>"; };
+		4F4321031DC98A58007B90C5 /* SQHXOREncryptUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHXOREncryptUtil.m; sourceTree = "<group>"; };
 		4F82ADB41D8D5C2800619490 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F82AE1D1D8DA3F200619490 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F82AE1E1D8DA3F200619490 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4F82AE1F1D8DA3F200619490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F82AE211D8DA3F200619490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4F82AE251D8DA3F200619490 /* SQHImageStretchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHImageStretchViewController.h; sourceTree = "<group>"; };
-		4F82AE261D8DA3F200619490 /* SQHImageStretchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHImageStretchViewController.m; sourceTree = "<group>"; };
-		4F82AE271D8DA3F200619490 /* SQHImageStretchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQHImageStretchViewController.xib; sourceTree = "<group>"; };
-		4F82AE281D8DA3F200619490 /* SQHImageTileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHImageTileViewController.h; sourceTree = "<group>"; };
-		4F82AE291D8DA3F200619490 /* SQHImageTileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHImageTileViewController.m; sourceTree = "<group>"; };
-		4F82AE2A1D8DA3F200619490 /* SQHImageTileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQHImageTileViewController.xib; sourceTree = "<group>"; };
-		4F82AE2B1D8DA3F200619490 /* SQHImageTintColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHImageTintColorViewController.h; sourceTree = "<group>"; };
-		4F82AE2C1D8DA3F200619490 /* SQHImageTintColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHImageTintColorViewController.m; sourceTree = "<group>"; };
-		4F82AE2D1D8DA3F200619490 /* SQHImageTintColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQHImageTintColorViewController.xib; sourceTree = "<group>"; };
 		4F82AE301D8DA3F200619490 /* SQHGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHGroupModel.h; sourceTree = "<group>"; };
 		4F82AE311D8DA3F200619490 /* SQHGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHGroupModel.m; sourceTree = "<group>"; };
 		4F82AE321D8DA3F200619490 /* SQHItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHItemModel.h; sourceTree = "<group>"; };
@@ -69,6 +79,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F4320E11DC97C57007B90C5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4F4320E21DC97C57007B90C5 /* Encrypt */,
+				4F4320E31DC97C57007B90C5 /* Image */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4F4320E21DC97C57007B90C5 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				4F4320FA1DC989A5007B90C5 /* XOR */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		4F4320E31DC97C57007B90C5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4F4320E41DC97C57007B90C5 /* SQHImageStretchViewController.h */,
+				4F4320E51DC97C57007B90C5 /* SQHImageStretchViewController.m */,
+				4F4320E61DC97C57007B90C5 /* SQHImageStretchViewController.xib */,
+				4F4320E71DC97C57007B90C5 /* SQHImageTileViewController.h */,
+				4F4320E81DC97C57007B90C5 /* SQHImageTileViewController.m */,
+				4F4320E91DC97C57007B90C5 /* SQHImageTileViewController.xib */,
+				4F4320EA1DC97C57007B90C5 /* SQHImageTintColorViewController.h */,
+				4F4320EB1DC97C57007B90C5 /* SQHImageTintColorViewController.m */,
+				4F4320EC1DC97C57007B90C5 /* SQHImageTintColorViewController.xib */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4F4320FA1DC989A5007B90C5 /* XOR */ = {
+			isa = PBXGroup;
+			children = (
+				4F4320FB1DC989A5007B90C5 /* data.json */,
+				4F4320FC1DC989A5007B90C5 /* SQHXOREncryptViewController.h */,
+				4F4320FD1DC989A5007B90C5 /* SQHXOREncryptViewController.m */,
+				4F4320FE1DC989A5007B90C5 /* SQHXOREncryptViewController.xib */,
+				4F4321021DC98A58007B90C5 /* SQHXOREncryptUtil.h */,
+				4F4321031DC98A58007B90C5 /* SQHXOREncryptUtil.m */,
+			);
+			path = XOR;
+			sourceTree = "<group>";
+		};
 		4F82ADAB1D8D5C2800619490 = {
 			isa = PBXGroup;
 			children = (
@@ -105,42 +161,10 @@
 		4F82AE221D8DA3F200619490 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4F82AE231D8DA3F200619490 /* Controller */,
+				4F4320E11DC97C57007B90C5 /* Category */,
 				4F82AE2F1D8DA3F200619490 /* Model */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		4F82AE231D8DA3F200619490 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				4F82AE241D8DA3F200619490 /* Image */,
-				4F82AE2E1D8DA3F200619490 /* String */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		4F82AE241D8DA3F200619490 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				4F82AE251D8DA3F200619490 /* SQHImageStretchViewController.h */,
-				4F82AE261D8DA3F200619490 /* SQHImageStretchViewController.m */,
-				4F82AE271D8DA3F200619490 /* SQHImageStretchViewController.xib */,
-				4F82AE281D8DA3F200619490 /* SQHImageTileViewController.h */,
-				4F82AE291D8DA3F200619490 /* SQHImageTileViewController.m */,
-				4F82AE2A1D8DA3F200619490 /* SQHImageTileViewController.xib */,
-				4F82AE2B1D8DA3F200619490 /* SQHImageTintColorViewController.h */,
-				4F82AE2C1D8DA3F200619490 /* SQHImageTintColorViewController.m */,
-				4F82AE2D1D8DA3F200619490 /* SQHImageTintColorViewController.xib */,
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
-		4F82AE2E1D8DA3F200619490 /* String */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = String;
 			sourceTree = "<group>";
 		};
 		4F82AE2F1D8DA3F200619490 /* Model */ = {
@@ -234,16 +258,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F82AE5A1D8DA4F800619490 /* sqh_image_tile_16x16@2x.png in Resources */,
+				4F4320F21DC97C57007B90C5 /* SQHImageTintColorViewController.xib in Resources */,
 				4F82AE591D8DA4F800619490 /* sqh_image_placeholder@2x.png in Resources */,
+				4F4321011DC989A5007B90C5 /* SQHXOREncryptViewController.xib in Resources */,
 				4F82AE5B1D8DA4F800619490 /* sqh_image_tile_8x8@2x.png in Resources */,
 				4F82AE401D8DA3F200619490 /* Assets.xcassets in Resources */,
 				4F82AE411D8DA3F200619490 /* LaunchScreen.storyboard in Resources */,
+				4F4320EE1DC97C57007B90C5 /* SQHImageStretchViewController.xib in Resources */,
+				4F4320FF1DC989A5007B90C5 /* data.json in Resources */,
 				4F82AE5D1D8DA4F800619490 /* sqh_image_youku@2x.png in Resources */,
-				4F82AE431D8DA3F200619490 /* SQHImageStretchViewController.xib in Resources */,
-				4F82AE471D8DA3F200619490 /* SQHImageTintColorViewController.xib in Resources */,
 				4F82AE4F1D8DA3F200619490 /* Info.plist in Resources */,
 				4F82AE5C1D8DA4F800619490 /* sqh_image_tintcolor@2x.png in Resources */,
-				4F82AE451D8DA3F200619490 /* SQHImageTileViewController.xib in Resources */,
+				4F4320F01DC97C57007B90C5 /* SQHImageTileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +280,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F82AE461D8DA3F200619490 /* SQHImageTintColorViewController.m in Sources */,
+				4F4320F11DC97C57007B90C5 /* SQHImageTintColorViewController.m in Sources */,
 				4F82AE3F1D8DA3F200619490 /* AppDelegate.m in Sources */,
+				4F4320EF1DC97C57007B90C5 /* SQHImageTileViewController.m in Sources */,
 				4F82AE511D8DA3F200619490 /* SQHiOSFuntionListController.m in Sources */,
+				4F4321041DC98A58007B90C5 /* SQHXOREncryptUtil.m in Sources */,
 				4F82AE481D8DA3F200619490 /* SQHGroupModel.m in Sources */,
 				4F82AE491D8DA3F200619490 /* SQHItemModel.m in Sources */,
-				4F82AE441D8DA3F200619490 /* SQHImageTileViewController.m in Sources */,
+				4F4321001DC989A5007B90C5 /* SQHXOREncryptViewController.m in Sources */,
 				4F82AE501D8DA3F200619490 /* main.m in Sources */,
-				4F82AE421D8DA3F200619490 /* SQHImageStretchViewController.m in Sources */,
+				4F4320ED1DC97C57007B90C5 /* SQHImageStretchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
